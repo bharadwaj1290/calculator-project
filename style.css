@@ -69,9 +69,9 @@ body {
 .display {
   background: black;
   color: limegreen;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: right;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
   min-height: 50px;
