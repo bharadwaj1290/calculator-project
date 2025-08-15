@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   background: #444;
   display: flex;
@@ -51,8 +51,7 @@ body {
   background: #ddd;
   cursor: pointer;
 }
-=======
-body {
+.body {
   background: #f0f0f0;
   display: flex;
   justify-content: center;
@@ -88,4 +87,4 @@ body {
   font-size: 1.2rem;
   padding: 15px;
 }
->>>>>>> dd3e2d60a09832aaf76206376c3f1ec53213a516
+
