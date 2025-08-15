@@ -9,14 +9,12 @@ body {
 }
 
 .calculator {
-    width: 90%;
-    height: 90%;
+    width: 400px;  /* Fixed width for better proportions */
     background: #222;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-shadow: 0 0 25px rgba(0,0,0,0.5);
 }
 
@@ -24,7 +22,7 @@ body {
 .display {
     background: black;
     color: limegreen;
-    font-size: 3rem;  /* Bigger display text */
+    font-size: 3rem;
     padding: 20px;
     text-align: right;
     border-radius: 10px;
@@ -40,12 +38,13 @@ body {
 
 /* Buttons styling */
 .btn {
-    font-size: 2rem;  /* Bigger numbers/symbols */
-    padding: 20px;    /* Bigger clickable area */
+    font-size: 1.5rem;  /* Bigger text */
+    padding: 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     background: white;
+    height: 70px;  /* Ensures buttons are more square */
 }
 
 .btn:active {
